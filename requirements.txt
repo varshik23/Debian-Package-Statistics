@@ -1,6 +1,5 @@
 certifi==2023.7.22
 charset-normalizer==3.3.0
--e git+https://github.com/varshik23/Debian-Package-Statistics.git@f59e39a7913a17819a8bcdc096d63a99449f3cf9#egg=dps
 exceptiongroup==1.1.3
 idna==3.4
 iniconfig==2.0.0
