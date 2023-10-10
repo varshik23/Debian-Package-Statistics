@@ -73,17 +73,26 @@ Change your current working directory to the cloned repository directory:
 ```bash
 cd Debian-Package-Statistics
 ```
-**3. Install Dependencies**
+**3. Setup the Virtual Environment:**
 
-To install all the necessary dependencies, use pip and the requirements.txt file:
+Note: In windows python3 is replaced by python
 
+Setup a virtual environment:
 ```bash
 python3 -m venv ./venv
-source ${PATH}/venv/bin/activate
+```
+Activate the virtual environment(Fill in the current working directory in the PATH):
+```bash
+source ${PATH}/venv/bin/activate # Mac Os or Linux
+
+venv\Scripts\activate # Windows
+```
+**4. Install the dependencies**
+```bash
 python3 -m pip install -r requirements.txt
 ```
 
-**4. Develop the Module**
+**5. Develop the Module**
 
 Run the following command to develop the module using Python3:
 
@@ -147,4 +156,3 @@ pytest test
 ```
 ## Author
 Varshik Sonti - [GitHub](varshik23) - [LinkedIn](https://www.linkedin.com/in/varshik-sonti/) - [Portfolio](https://varshik23.github.io/Portfolio/)
-
