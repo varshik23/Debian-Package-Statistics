@@ -79,7 +79,7 @@ To install all the necessary dependencies, use pip and the requirements.txt file
 
 ```bash
 python3 -m venv ./venv
-source venv/bin/activate
+source ${PATH}/venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
